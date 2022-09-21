@@ -1,4 +1,4 @@
-package cc.rcbb.design.patterns.decorator;
+package cc.rcbb.design.patterns.decorator.example2;
 
 /**
  * <p>

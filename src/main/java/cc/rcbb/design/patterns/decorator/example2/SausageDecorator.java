@@ -1,16 +1,16 @@
-package cc.rcbb.design.patterns.decorator;
+package cc.rcbb.design.patterns.decorator.example2;
 
 /**
  * <p>
- * EggDecorator
+ * SausageDecorator
  * </p>
  *
  * @author rcbb.cc
  * @date 2022/5/27
  */
-public class EggDecorator extends BattercakeDecotator {
+public class SausageDecorator extends BattercakeDecotator {
     
-    public EggDecorator(Battercake battercake) {
+    public SausageDecorator(Battercake battercake) {
         super(battercake);
     }
     
@@ -21,11 +21,11 @@ public class EggDecorator extends BattercakeDecotator {
     
     @Override
     protected String getMsg() {
-        return super.getMsg() + "+1个鸡蛋";
+        return super.getMsg() + "+1根香肠";
     }
     
     @Override
     protected int getPrice() {
-        return super.getPrice() + 1;
+        return super.getPrice() + 2;
     }
 }

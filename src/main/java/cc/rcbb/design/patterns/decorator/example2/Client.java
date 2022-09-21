@@ -1,4 +1,4 @@
-package cc.rcbb.design.patterns.decorator;
+package cc.rcbb.design.patterns.decorator.example2;
 
 /**
  * <p>
@@ -8,7 +8,7 @@ package cc.rcbb.design.patterns.decorator;
  * @author rcbb.cc
  * @date 2022/5/27
  */
-public class BattercakeTest {
+public class Client {
     
     public static void main(String[] args) {
         Battercake battercake;
